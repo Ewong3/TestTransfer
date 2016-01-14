@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.eric3.cmput301_a0.MessageActivity">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="64sp"
+        android:layout_weight="3"
+        android:hint="CCID"
+        android:textSize="32sp"
+        android:id="@+id/Edit_CCID"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="64sp"
+        android:layout_weight="1"
+        android:text="Go!"
+        android:textSize="32sp"
+        android:id="@+id/Button_Go"
+        android:onClick="sendCCID"/>
+</LinearLayout>

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Cmput301_A0</string>
+    <string name="title_activity_display_greeting">DisplayGreetingActivity</string>
+</resources>
